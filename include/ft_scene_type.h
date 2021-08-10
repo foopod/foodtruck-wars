@@ -5,7 +5,8 @@ namespace ft
 {
     enum class SceneType
     {
-        Intro
+        Intro,
+        Level1
     };
 }
 
