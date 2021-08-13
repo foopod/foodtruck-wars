@@ -6,7 +6,6 @@
 #include "ft_scene_type.h"
 #include "ft_player_data.h"
 
-
 namespace ft
 {
     class Level1

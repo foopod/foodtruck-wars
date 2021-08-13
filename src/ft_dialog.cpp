@@ -6,6 +6,7 @@
 
 #include "bn_sprite_items_dialog_bg.h"
 #include "bn_sprite_items_police_face.h"
+#include "bn_sprite_items_bob_face.h"
 
 namespace ft
 {
@@ -45,6 +46,9 @@ namespace ft
     bn::sprite_ptr get_speaker_sprite(Speaker speaker, Emotion emotion){
         if(speaker == Speaker::Cop){
             return bn::sprite_items::police_face.create_sprite(-84, -44, static_cast<int>(emotion));
+        }
+        if(speaker == Speaker::Bob){
+            return bn::sprite_items::bob_face.create_sprite(-84, -44, static_cast<int>(emotion));
         }
     }
 

@@ -12,7 +12,8 @@ namespace ft
     enum class Speaker
     {
         Player,
-        Cop
+        Cop,
+        Bob
     };
 
     enum class Emotion

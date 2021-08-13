@@ -14,7 +14,7 @@ int main()
     bn::core::init();
 
     //first scene
-    ft::SceneType scene = ft::SceneType::Intro;
+    ft::SceneType scene = ft::SceneType::Level1;
 
     //player data
     ft::PlayerData player_data = ft::PlayerData();
